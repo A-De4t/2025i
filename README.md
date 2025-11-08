@@ -1,5 +1,8 @@
 # 2025i
 ak
+
+tixt:
+{
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -29,6 +32,8 @@ int main() {
         const char* prefix = prefixes[rand() % PREFIX_COUNT];
         printf("%s%s\n", prefix, last8);
     }
+    }
 
     return 0;
 }
+}}
